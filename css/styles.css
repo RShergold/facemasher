@@ -1,0 +1,57 @@
+body {
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+
+#base {
+	z-index: 100;
+}
+
+.face {
+	position: relative;
+	margin: 0 auto;
+	height: 96vh;
+}
+
+.face img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	max-height:100%;
+	max-width: 100%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#base {
+	z-index: 100;
+}
+
+#debug-info {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	z-index: 200;
+}
+
+#controls {
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+	z-index: 200;
+}
+
+#controls ul {
+	list-style: none;
+}
+
+#controls li {
+	display: block;
+	padding: 5px;
+}
+
+#controls ul select {
+	float: right;
+	margin-left: 1em;
+}
